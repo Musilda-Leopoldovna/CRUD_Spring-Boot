@@ -1,16 +1,7 @@
 package oops.kata.springBootCRUD.dao;
 
-import java.util.List;
 import oops.kata.springBootCRUD.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserDao {
-    void saveUser(User var1);
-
-    void deleteUserDaoById(Long var1);
-
-    void changeUserDaoById(User var1);
-
-    List<User> allUsers();
-
-    User findUserById(Long var1);
+public interface UserDao extends JpaRepository<User, Long> {
 }
