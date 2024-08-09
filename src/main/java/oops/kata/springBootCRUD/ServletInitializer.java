@@ -1,8 +1,7 @@
-package oops.kata.springBootCRUD.config;
+package oops.kata.springBootCRUD;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-import oops.kata.springBootCRUD.SpringBootCrudApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 
